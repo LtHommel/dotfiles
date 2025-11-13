@@ -110,3 +110,6 @@ export PATH="/Users/wilhelmina/Library/Python/3.9/bin:$PATH"
 
 #ghcup environment
 [ -f "/Users/wilhelmina/.ghcup/env" ] && source "/Users/wilhelmina/.ghcup/env"
+
+#initialize starship
+eval "$(starship init zsh)"
