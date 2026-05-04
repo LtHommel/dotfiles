@@ -3,4 +3,7 @@
 name = Wilhelmina
 email = bzzz@hommel.lt
 [credential]
-	helper = osxkeychain
+  helper = osxkeychain
+
+[includeif "gitdir:~/ou/"]
+  path = ~/.gitconfig-ou
